@@ -30,7 +30,7 @@ public class SimpleClock extends JFrame implements ActionListener {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setTitle("Digital Clock");
         this.setLayout(new FlowLayout());
-        this.setSize(450, 320);
+        this.setSize(400, 300);
         this.setResizable(false);
 
         timeFormat = new SimpleDateFormat("hh:mm:ss a");
