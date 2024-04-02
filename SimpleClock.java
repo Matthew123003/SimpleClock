@@ -37,9 +37,9 @@ public class SimpleClock extends JFrame implements ActionListener {
         dayFormat = new SimpleDateFormat("EEEE");
         dateFormat = new SimpleDateFormat("dd MMMMM, yyyy");
         timeLabel = new JLabel();
-        timeLabel.setFont(new Font("SANS_SERIF", Font.PLAIN, 59));
+        timeLabel.setFont(new Font("Verdana", Font.PLAIN, 59));
         timeLabel.setBackground(Color.BLACK);
-        timeLabel.setForeground(Color.WHITE);
+        timeLabel.setForeground(Color.GREEN);
         timeLabel.setOpaque(true);
         dayLabel = new JLabel();
         dayLabel.setFont(new Font("Ink Free", Font.BOLD, 34));
@@ -53,7 +53,7 @@ public class SimpleClock extends JFrame implements ActionListener {
         button1.setText("12/24 FORMAT");
 
         button2 = new JButton();
-        button2.setBounds(400, 300, 200, 150);
+        button2.setBounds(300, 200, 200, 150);
         button2.addActionListener(this);
         button2.setText("GMT TIME");
 
